@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<DFHMSD Name="BZITEST">
+    <TYPE>SYSPARM</TYPE>
+    <LANG>COBOL</LANG>
+    <MODE>INOUT</MODE>
+    <TERM>ALL</TERM>
+    <CTRL>FREEKB</CTRL>
+    <STORAGE>AUTO</STORAGE>
+    <TIOAPFX>YES</TIOAPFX>
+</DFHMSD>

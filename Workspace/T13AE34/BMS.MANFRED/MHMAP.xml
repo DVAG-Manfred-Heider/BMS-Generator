@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<DFHMSD Name="MHMAP">
+                
+    
+    
+    <TYPE>SYSPARM</TYPE>
+                
+    
+    
+    <LANG>COBOL</LANG>
+                
+    
+    
+    <MODE>INOUT</MODE>
+                
+    
+    
+    <TERM>ALL</TERM>
+                
+    
+    
+    <CTRL>FREEKB</CTRL>
+                
+    
+    
+    <STORAGE>AUTO</STORAGE>
+                
+    
+    
+    <TIOAPFX>YES</TIOAPFX>
+            
+    
+    
+    <DFHMDI Name="MHMAP">
+                        
+        
+        <SIZE>(24,80)</SIZE>
+                        
+        
+        <MAPATTS>(COLOR,HILIGHT)</MAPATTS>
+                        
+        
+        <LINE>1</LINE>
+                        
+        
+        <COLUMN>1</COLUMN>
+                    
+    
+        <DFHMDF Name="TVBNR">
+            <POS>(1,2)</POS>
+            <LENGTH>11</LENGTH>
+            <ATTRB>(ASKIP,NORM)</ATTRB>
+            <COLOR>TURQUOISE</COLOR>
+            <INITIAL>VBNR</INITIAL>
+            <COMMENT>VB</COMMENT>
+        </DFHMDF>
+        <DFHMDF Name="EVBNR">
+            <POS>(1,22)</POS>
+            <LENGTH>7</LENGTH>
+            <ATTRB>(UNPROT,NORM,FSET)</ATTRB>
+            <COLOR>GREEN</COLOR>
+            <INITIAL>nnnnnn0</INITIAL>
+            <COMMENT>Eingabe VB-Nummer</COMMENT>
+        </DFHMDF>
+    </DFHMDI>
+        
+
+</DFHMSD>

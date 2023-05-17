@@ -1,0 +1,25 @@
+MHMAP    DFHMSD TYPE=SYSPARM,                                          *
+               LANG=COBOL,                                             *
+               MODE=INOUT,                                             *
+               TERM=ALL,                                               *
+               CTRL=FREEKB,                                            *
+               STORAGE=AUTO,                                           *
+               TIOAPFX=YES
+MHMAP    DFHMDI SIZE=(24,80),                                          *
+               MAPATTS=(COLOR,HILIGHT),                                *
+               LINE=1,                                                 *
+               COLUMN=1
+*VB
+TVBNR    DFHMDF POS=(1,2),                                             *
+               LENGTH=11,                                              *
+               ATTRB=(ASKIP,NORM),                                     *
+               COLOR=TURQUOISE,                                        *
+               INITIAL='VBNR'
+*Eingabe VB-Nummer
+EVBNR    DFHMDF POS=(1,22),                                            *
+               LENGTH=7,                                               *
+               ATTRB=(UNPROT,NORM,FSET),                               *
+               COLOR=GREEN,                                            *
+               INITIAL='nnnnnn0'
+         DFHMSD TYPE=FINAL
+               END
